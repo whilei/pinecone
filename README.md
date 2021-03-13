@@ -45,7 +45,13 @@ Update things on the Pinecone.
 sudo pacman -Syu elinks
 ```
 
-Install `gpsd`.
+Install stuff.
 ```
 pacman -S gpsd
+pacman -S rsync
+pacman -S geoclue
+```
+
+```
+[kde@plasma-mobile ~]$ /usr/lib/geoclue-2.0/demos/where-am-i
 ```
