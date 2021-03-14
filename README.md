@@ -38,6 +38,9 @@ Take stock.
 ```
 [kde@plasma-mobile ~]$ uname -a
 Linux plasma-mobile 5.9.12-1-MANJARO-ARM #1 SMP Wed Dec 2 11:41:52 CET 2020 aarch64 GNU/Linux
+# After pacman upgrade (below), new kernel.
+[kde@plasma-mobile ~]$ uname -a
+Linux plasma-mobile 5.11.3-1-MANJARO-ARM #1 SMP Thu Mar 4 17:54:13 UTC 2021 aarch64 GNU/Linux
 ```
 
 Update things on the Pinecone.
