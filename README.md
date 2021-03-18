@@ -100,6 +100,7 @@ pacman -S geoclue
 
 ```
 pacman -Syu git
+pacman -S make
 ```
 
 ```
