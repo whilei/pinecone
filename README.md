@@ -97,3 +97,14 @@ pacman -S geoclue
 ```
 [kde@plasma-mobile ~]$ /usr/lib/geoclue-2.0/demos/where-am-i
 ```
+
+```
+pacman -Syu git
+```
+
+```
+cd /tmp
+wget 'https://golang.org/dl/go1.16.2.linux-arm64.tar.gz'
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.16.2.linux-arm64.tar.gz
+echo 'export PATH=$PATH:/usr/local/go/bin' | sudo tee -a /etc/profile
+```
